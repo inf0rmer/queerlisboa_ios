@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13D3572E142778CC00D57703 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13D3572D142778CC00D57703 /* UIKit.framework */; };
+		13D35730142778CC00D57703 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13D3572F142778CC00D57703 /* Foundation.framework */; };
+		13D35732142778CC00D57703 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13D35731142778CC00D57703 /* CoreGraphics.framework */; };
+		13D35738142778CC00D57703 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 13D35736142778CC00D57703 /* InfoPlist.strings */; };
+		13D3573A142778CC00D57703 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D35739142778CC00D57703 /* main.m */; };
+		13D3573E142778CC00D57703 /* Queer_LisboaAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D3573D142778CC00D57703 /* Queer_LisboaAppDelegate.m */; };
+		13D35741142778CC00D57703 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13D3573F142778CC00D57703 /* MainWindow.xib */; };
+		13D35744142778CC00D57703 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D35743142778CC00D57703 /* RootViewController.m */; };
+		13D35747142778CC00D57703 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13D35745142778CC00D57703 /* RootViewController.xib */; };
+		13D3574F142778CC00D57703 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13D3574E142778CC00D57703 /* SenTestingKit.framework */; };
+		13D35750142778CC00D57703 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13D3572D142778CC00D57703 /* UIKit.framework */; };
+		13D35751142778CC00D57703 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13D3572F142778CC00D57703 /* Foundation.framework */; };
+		13D35752142778CC00D57703 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13D35731142778CC00D57703 /* CoreGraphics.framework */; };
+		13D3575A142778CC00D57703 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 13D35758142778CC00D57703 /* InfoPlist.strings */; };
+		13D3575C142778CC00D57703 /* Queer_LisboaTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 13D3575B142778CC00D57703 /* Queer_LisboaTests.h */; };
+		13D3575E142778CC00D57703 /* Queer_LisboaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D3575D142778CC00D57703 /* Queer_LisboaTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		13D35753142778CC00D57703 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13D35720142778CC00D57703 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13D35728142778CC00D57703;
+			remoteInfo = "Queer Lisboa";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13D35729142778CC00D57703 /* Queer Lisboa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Queer Lisboa.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13D3572D142778CC00D57703 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		13D3572F142778CC00D57703 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		13D35731142778CC00D57703 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		13D35735142778CC00D57703 /* Queer Lisboa-Info.plist */ = {isa = PBXFileReference; path = "Queer Lisboa-Info.plist"; sourceTree = "<group>"; };
+		13D35737142778CC00D57703 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		13D35739142778CC00D57703 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		13D3573B142778CC00D57703 /* Queer Lisboa-Prefix.pch */ = {isa = PBXFileReference; path = "Queer Lisboa-Prefix.pch"; sourceTree = "<group>"; };
+		13D3573C142778CC00D57703 /* Queer_LisboaAppDelegate.h */ = {isa = PBXFileReference; path = Queer_LisboaAppDelegate.h; sourceTree = "<group>"; };
+		13D3573D142778CC00D57703 /* Queer_LisboaAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Queer_LisboaAppDelegate.m; sourceTree = "<group>"; };
+		13D35740142778CC00D57703 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		13D35742142778CC00D57703 /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		13D35743142778CC00D57703 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		13D35746142778CC00D57703 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		13D3574D142778CC00D57703 /* Queer LisboaTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Queer LisboaTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13D3574E142778CC00D57703 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		13D35757142778CC00D57703 /* Queer LisboaTests-Info.plist */ = {isa = PBXFileReference; path = "Queer LisboaTests-Info.plist"; sourceTree = "<group>"; };
+		13D35759142778CC00D57703 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		13D3575B142778CC00D57703 /* Queer_LisboaTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Queer_LisboaTests.h; sourceTree = "<group>"; };
+		13D3575D142778CC00D57703 /* Queer_LisboaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Queer_LisboaTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13D35726142778CC00D57703 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13D3572E142778CC00D57703 /* UIKit.framework in Frameworks */,
+				13D35730142778CC00D57703 /* Foundation.framework in Frameworks */,
+				13D35732142778CC00D57703 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13D35749142778CC00D57703 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13D3574F142778CC00D57703 /* SenTestingKit.framework in Frameworks */,
+				13D35750142778CC00D57703 /* UIKit.framework in Frameworks */,
+				13D35751142778CC00D57703 /* Foundation.framework in Frameworks */,
+				13D35752142778CC00D57703 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13D3571E142778CC00D57703 = {
+			isa = PBXGroup;
+			children = (
+				13D35733142778CC00D57703 /* Queer Lisboa */,
+				13D35755142778CC00D57703 /* Queer LisboaTests */,
+				13D3572C142778CC00D57703 /* Frameworks */,
+				13D3572A142778CC00D57703 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		13D3572A142778CC00D57703 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13D35729142778CC00D57703 /* Queer Lisboa.app */,
+				13D3574D142778CC00D57703 /* Queer LisboaTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13D3572C142778CC00D57703 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13D3572D142778CC00D57703 /* UIKit.framework */,
+				13D3572F142778CC00D57703 /* Foundation.framework */,
+				13D35731142778CC00D57703 /* CoreGraphics.framework */,
+				13D3574E142778CC00D57703 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		13D35733142778CC00D57703 /* Queer Lisboa */ = {
+			isa = PBXGroup;
+			children = (
+				13D3573C142778CC00D57703 /* Queer_LisboaAppDelegate.h */,
+				13D3573D142778CC00D57703 /* Queer_LisboaAppDelegate.m */,
+				13D3573F142778CC00D57703 /* MainWindow.xib */,
+				13D35742142778CC00D57703 /* RootViewController.h */,
+				13D35743142778CC00D57703 /* RootViewController.m */,
+				13D35745142778CC00D57703 /* RootViewController.xib */,
+				13D35734142778CC00D57703 /* Supporting Files */,
+			);
+			path = "Queer Lisboa";
+			sourceTree = "<group>";
+		};
+		13D35734142778CC00D57703 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				13D35735142778CC00D57703 /* Queer Lisboa-Info.plist */,
+				13D35736142778CC00D57703 /* InfoPlist.strings */,
+				13D35739142778CC00D57703 /* main.m */,
+				13D3573B142778CC00D57703 /* Queer Lisboa-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13D35755142778CC00D57703 /* Queer LisboaTests */ = {
+			isa = PBXGroup;
+			children = (
+				13D3575B142778CC00D57703 /* Queer_LisboaTests.h */,
+				13D3575D142778CC00D57703 /* Queer_LisboaTests.m */,
+				13D35756142778CC00D57703 /* Supporting Files */,
+			);
+			path = "Queer LisboaTests";
+			sourceTree = "<group>";
+		};
+		13D35756142778CC00D57703 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				13D35757142778CC00D57703 /* Queer LisboaTests-Info.plist */,
+				13D35758142778CC00D57703 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13D35728142778CC00D57703 /* Queer Lisboa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13D35761142778CC00D57703 /* Build configuration list for PBXNativeTarget "Queer Lisboa" */;
+			buildPhases = (
+				13D35725142778CC00D57703 /* Sources */,
+				13D35726142778CC00D57703 /* Frameworks */,
+				13D35727142778CC00D57703 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Queer Lisboa";
+			productName = "Queer Lisboa";
+			productReference = 13D35729142778CC00D57703 /* Queer Lisboa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		13D3574C142778CC00D57703 /* Queer LisboaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13D35764142778CC00D57703 /* Build configuration list for PBXNativeTarget "Queer LisboaTests" */;
+			buildPhases = (
+				13D35748142778CC00D57703 /* Sources */,
+				13D35749142778CC00D57703 /* Frameworks */,
+				13D3574A142778CC00D57703 /* Resources */,
+				13D3574B142778CC00D57703 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13D35754142778CC00D57703 /* PBXTargetDependency */,
+			);
+			name = "Queer LisboaTests";
+			productName = "Queer LisboaTests";
+			productReference = 13D3574D142778CC00D57703 /* Queer LisboaTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13D35720142778CC00D57703 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 13D35723142778CC00D57703 /* Build configuration list for PBXProject "Queer Lisboa" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 13D3571E142778CC00D57703;
+			productRefGroup = 13D3572A142778CC00D57703 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13D35728142778CC00D57703 /* Queer Lisboa */,
+				13D3574C142778CC00D57703 /* Queer LisboaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13D35727142778CC00D57703 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13D35738142778CC00D57703 /* InfoPlist.strings in Resources */,
+				13D35741142778CC00D57703 /* MainWindow.xib in Resources */,
+				13D35747142778CC00D57703 /* RootViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13D3574A142778CC00D57703 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13D3575A142778CC00D57703 /* InfoPlist.strings in Resources */,
+				13D3575C142778CC00D57703 /* Queer_LisboaTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13D3574B142778CC00D57703 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13D35725142778CC00D57703 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13D3573A142778CC00D57703 /* main.m in Sources */,
+				13D3573E142778CC00D57703 /* Queer_LisboaAppDelegate.m in Sources */,
+				13D35744142778CC00D57703 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13D35748142778CC00D57703 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13D3575E142778CC00D57703 /* Queer_LisboaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13D35754142778CC00D57703 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13D35728142778CC00D57703 /* Queer Lisboa */;
+			targetProxy = 13D35753142778CC00D57703 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		13D35736142778CC00D57703 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13D35737142778CC00D57703 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		13D3573F142778CC00D57703 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13D35740142778CC00D57703 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		13D35745142778CC00D57703 /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13D35746142778CC00D57703 /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+		13D35758142778CC00D57703 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13D35759142778CC00D57703 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13D3575F142778CC00D57703 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		13D35760142778CC00D57703 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13D35762142778CC00D57703 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Queer Lisboa/Queer Lisboa-Prefix.pch";
+				INFOPLIST_FILE = "Queer Lisboa/Queer Lisboa-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		13D35763142778CC00D57703 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Queer Lisboa/Queer Lisboa-Prefix.pch";
+				INFOPLIST_FILE = "Queer Lisboa/Queer Lisboa-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		13D35765142778CC00D57703 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Queer Lisboa.app/Queer Lisboa";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Queer Lisboa/Queer Lisboa-Prefix.pch";
+				INFOPLIST_FILE = "Queer LisboaTests/Queer LisboaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		13D35766142778CC00D57703 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Queer Lisboa.app/Queer Lisboa";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Queer Lisboa/Queer Lisboa-Prefix.pch";
+				INFOPLIST_FILE = "Queer LisboaTests/Queer LisboaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13D35723142778CC00D57703 /* Build configuration list for PBXProject "Queer Lisboa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13D3575F142778CC00D57703 /* Debug */,
+				13D35760142778CC00D57703 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13D35761142778CC00D57703 /* Build configuration list for PBXNativeTarget "Queer Lisboa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13D35762142778CC00D57703 /* Debug */,
+				13D35763142778CC00D57703 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		13D35764142778CC00D57703 /* Build configuration list for PBXNativeTarget "Queer LisboaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13D35765142778CC00D57703 /* Debug */,
+				13D35766142778CC00D57703 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13D35720142778CC00D57703 /* Project object */;
+}
