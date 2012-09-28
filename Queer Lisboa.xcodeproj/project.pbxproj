@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		1305FA51142801A900E97A08 /* EventsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1305FA4F142801A900E97A08 /* EventsListViewController.m */; };
 		1305FA52142801A900E97A08 /* EventsListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1305FA50142801A900E97A08 /* EventsListViewController.xib */; };
+		130960F91615A0AB00423BDA /* ql-icon-20-theatre-play-white.png in Resources */ = {isa = PBXBuildFile; fileRef = 130960F41615A0AB00423BDA /* ql-icon-20-theatre-play-white.png */; };
+		130960FA1615A0AB00423BDA /* ql-icon-20-visual-arts-white.png in Resources */ = {isa = PBXBuildFile; fileRef = 130960F51615A0AB00423BDA /* ql-icon-20-visual-arts-white.png */; };
+		130960FB1615A0AB00423BDA /* ql-icon-20-film-white.png in Resources */ = {isa = PBXBuildFile; fileRef = 130960F61615A0AB00423BDA /* ql-icon-20-film-white.png */; };
+		130960FC1615A0AB00423BDA /* ql-icon-20-other-white.png in Resources */ = {isa = PBXBuildFile; fileRef = 130960F71615A0AB00423BDA /* ql-icon-20-other-white.png */; };
+		130960FD1615A0AB00423BDA /* ql-icon-20-party-white.png in Resources */ = {isa = PBXBuildFile; fileRef = 130960F81615A0AB00423BDA /* ql-icon-20-party-white.png */; };
 		134E74B816110ECA004BBE93 /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 134E74B616110ECA004BBE93 /* MainWindow-iPad.xib */; };
 		13681B2F142B70D100F8B0E8 /* AsyncImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 13681B2E142B70D100F8B0E8 /* AsyncImageView.m */; };
 		136C0A2716120DCA00239E1C /* GTMNSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 136C0A2616120DCA00239E1C /* GTMNSString+HTML.m */; };
@@ -67,6 +72,11 @@
 		1305FA4E142801A900E97A08 /* EventsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventsListViewController.h; sourceTree = "<group>"; };
 		1305FA4F142801A900E97A08 /* EventsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventsListViewController.m; sourceTree = "<group>"; };
 		1305FA50142801A900E97A08 /* EventsListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EventsListViewController.xib; sourceTree = "<group>"; };
+		130960F41615A0AB00423BDA /* ql-icon-20-theatre-play-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ql-icon-20-theatre-play-white.png"; sourceTree = "<group>"; };
+		130960F51615A0AB00423BDA /* ql-icon-20-visual-arts-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ql-icon-20-visual-arts-white.png"; sourceTree = "<group>"; };
+		130960F61615A0AB00423BDA /* ql-icon-20-film-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ql-icon-20-film-white.png"; sourceTree = "<group>"; };
+		130960F71615A0AB00423BDA /* ql-icon-20-other-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ql-icon-20-other-white.png"; sourceTree = "<group>"; };
+		130960F81615A0AB00423BDA /* ql-icon-20-party-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ql-icon-20-party-white.png"; sourceTree = "<group>"; };
 		134E74B716110ECA004BBE93 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "iPad/en.lproj/MainWindow-iPad.xib"; sourceTree = "<group>"; };
 		13681B2D142B70D100F8B0E8 /* AsyncImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncImageView.h; sourceTree = "<group>"; };
 		13681B2E142B70D100F8B0E8 /* AsyncImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncImageView.m; sourceTree = "<group>"; };
@@ -167,6 +177,11 @@
 		1387B3FA1428A4E20033C4B2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				130960F41615A0AB00423BDA /* ql-icon-20-theatre-play-white.png */,
+				130960F51615A0AB00423BDA /* ql-icon-20-visual-arts-white.png */,
+				130960F61615A0AB00423BDA /* ql-icon-20-film-white.png */,
+				130960F71615A0AB00423BDA /* ql-icon-20-other-white.png */,
+				130960F81615A0AB00423BDA /* ql-icon-20-party-white.png */,
 				13FFF07F16131F7B007A9D55 /* apple-touch-icon.png */,
 				13FFF07D16131F67007A9D55 /* Default-Portrait~ipad.png */,
 				1387B4111428B08F0033C4B2 /* Default.png */,
@@ -357,6 +372,11 @@
 				13FFF082161340E7007A9D55 /* FilmViewControllerWithoutTrailer.xib in Resources */,
 				13FFF08516134537007A9D55 /* synopsis.html in Resources */,
 				13FFF088161348B8007A9D55 /* video.html in Resources */,
+				130960F91615A0AB00423BDA /* ql-icon-20-theatre-play-white.png in Resources */,
+				130960FA1615A0AB00423BDA /* ql-icon-20-visual-arts-white.png in Resources */,
+				130960FB1615A0AB00423BDA /* ql-icon-20-film-white.png in Resources */,
+				130960FC1615A0AB00423BDA /* ql-icon-20-other-white.png in Resources */,
+				130960FD1615A0AB00423BDA /* ql-icon-20-party-white.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -210,9 +210,13 @@
     type = [type stringByReplacingOccurrencesOfString:@" " withString:@"-"];
     
     NSString *path = [[NSBundle mainBundle] pathForResource:[NSString stringWithFormat:@"ql-icon-20-%@", type] ofType:@"png"];
+    NSString *pathWhite = [[NSBundle mainBundle] pathForResource:[NSString stringWithFormat:@"ql-icon-20-%@-white", type] ofType:@"png"];
     UIImage *typeImage = [UIImage imageWithContentsOfFile:path];
+    UIImage *typeImageWhite = [UIImage imageWithContentsOfFile:pathWhite];
     
     cell.imageView.image = typeImage;
+    
+    cell.imageView.highlightedImage = typeImageWhite;
     
     cell.textLabel.textColor = UIColorFromRGB(0x333333);
     
