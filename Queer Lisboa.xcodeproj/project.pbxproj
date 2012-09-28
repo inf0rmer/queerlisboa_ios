@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1305FA51142801A900E97A08 /* EventsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1305FA4F142801A900E97A08 /* EventsListViewController.m */; };
+		1305FA52142801A900E97A08 /* EventsListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1305FA50142801A900E97A08 /* EventsListViewController.xib */; };
+		134E74B816110ECA004BBE93 /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 134E74B616110ECA004BBE93 /* MainWindow-iPad.xib */; };
+		13681B2F142B70D100F8B0E8 /* AsyncImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 13681B2E142B70D100F8B0E8 /* AsyncImageView.m */; };
+		136C0A2716120DCA00239E1C /* GTMNSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 136C0A2616120DCA00239E1C /* GTMNSString+HTML.m */; };
+		136C0A2816120DCA00239E1C /* GTMNSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 136C0A2616120DCA00239E1C /* GTMNSString+HTML.m */; };
+		1387B40A1428AF490033C4B2 /* ql-icon-20-film.png in Resources */ = {isa = PBXBuildFile; fileRef = 1387B4051428AF490033C4B2 /* ql-icon-20-film.png */; };
+		1387B40B1428AF490033C4B2 /* ql-icon-20-other.png in Resources */ = {isa = PBXBuildFile; fileRef = 1387B4061428AF490033C4B2 /* ql-icon-20-other.png */; };
+		1387B40C1428AF490033C4B2 /* ql-icon-20-party.png in Resources */ = {isa = PBXBuildFile; fileRef = 1387B4071428AF490033C4B2 /* ql-icon-20-party.png */; };
+		1387B40D1428AF490033C4B2 /* ql-icon-20-theatre-play.png in Resources */ = {isa = PBXBuildFile; fileRef = 1387B4081428AF490033C4B2 /* ql-icon-20-theatre-play.png */; };
+		1387B40E1428AF490033C4B2 /* ql-icon-20-visual-arts.png in Resources */ = {isa = PBXBuildFile; fileRef = 1387B4091428AF490033C4B2 /* ql-icon-20-visual-arts.png */; };
+		1387B4101428B0870033C4B2 /* appicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1387B40F1428B0870033C4B2 /* appicon.png */; };
+		1387B4121428B08F0033C4B2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1387B4111428B08F0033C4B2 /* Default.png */; };
+		1387B4161428B1740033C4B2 /* EventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1387B4141428B1740033C4B2 /* EventViewController.m */; };
+		1387B4171428B1740033C4B2 /* EventViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1387B4151428B1740033C4B2 /* EventViewController.xib */; };
+		1387B4191428B39D0033C4B2 /* px-pttrn-4x1s-cocoa-bean-100.png in Resources */ = {isa = PBXBuildFile; fileRef = 1387B4181428B39D0033C4B2 /* px-pttrn-4x1s-cocoa-bean-100.png */; };
+		13A39F94142A57CB004ACB5A /* FilmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A39F92142A57CB004ACB5A /* FilmViewController.m */; };
+		13A39F95142A57CB004ACB5A /* FilmViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13A39F93142A57CB004ACB5A /* FilmViewController.xib */; };
 		13D3572E142778CC00D57703 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13D3572D142778CC00D57703 /* UIKit.framework */; };
 		13D35730142778CC00D57703 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13D3572F142778CC00D57703 /* Foundation.framework */; };
 		13D35732142778CC00D57703 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13D35731142778CC00D57703 /* CoreGraphics.framework */; };
@@ -23,6 +41,15 @@
 		13D3575A142778CC00D57703 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 13D35758142778CC00D57703 /* InfoPlist.strings */; };
 		13D3575C142778CC00D57703 /* Queer_LisboaTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 13D3575B142778CC00D57703 /* Queer_LisboaTests.h */; };
 		13D3575E142778CC00D57703 /* Queer_LisboaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D3575D142778CC00D57703 /* Queer_LisboaTests.m */; };
+		13F6A74B1427BABC00004061 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F6A74A1427BABC00004061 /* JSONKit.m */; };
+		13FFF07E16131F67007A9D55 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 13FFF07D16131F67007A9D55 /* Default-Portrait~ipad.png */; };
+		13FFF08016131F7B007A9D55 /* apple-touch-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 13FFF07F16131F7B007A9D55 /* apple-touch-icon.png */; };
+		13FFF082161340E7007A9D55 /* FilmViewControllerWithoutTrailer.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13FFF081161340E7007A9D55 /* FilmViewControllerWithoutTrailer.xib */; };
+		13FFF083161340E7007A9D55 /* FilmViewControllerWithoutTrailer.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13FFF081161340E7007A9D55 /* FilmViewControllerWithoutTrailer.xib */; };
+		13FFF08516134537007A9D55 /* synopsis.html in Resources */ = {isa = PBXBuildFile; fileRef = 13FFF08416134537007A9D55 /* synopsis.html */; };
+		13FFF08616134537007A9D55 /* synopsis.html in Resources */ = {isa = PBXBuildFile; fileRef = 13FFF08416134537007A9D55 /* synopsis.html */; };
+		13FFF088161348B8007A9D55 /* video.html in Resources */ = {isa = PBXBuildFile; fileRef = 13FFF087161348B8007A9D55 /* video.html */; };
+		13FFF089161348B8007A9D55 /* video.html in Resources */ = {isa = PBXBuildFile; fileRef = 13FFF087161348B8007A9D55 /* video.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,26 +63,57 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1305FA4C142800FD00E97A08 /* helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = helpers.h; sourceTree = "<group>"; };
+		1305FA4E142801A900E97A08 /* EventsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventsListViewController.h; sourceTree = "<group>"; };
+		1305FA4F142801A900E97A08 /* EventsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventsListViewController.m; sourceTree = "<group>"; };
+		1305FA50142801A900E97A08 /* EventsListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EventsListViewController.xib; sourceTree = "<group>"; };
+		134E74B716110ECA004BBE93 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "iPad/en.lproj/MainWindow-iPad.xib"; sourceTree = "<group>"; };
+		13681B2D142B70D100F8B0E8 /* AsyncImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncImageView.h; sourceTree = "<group>"; };
+		13681B2E142B70D100F8B0E8 /* AsyncImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncImageView.m; sourceTree = "<group>"; };
+		136C0A2516120DCA00239E1C /* GTMNSString+HTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "GTMNSString+HTML.h"; path = "../GTMNSString+HTML.h"; sourceTree = "<group>"; };
+		136C0A2616120DCA00239E1C /* GTMNSString+HTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "GTMNSString+HTML.m"; path = "../GTMNSString+HTML.m"; sourceTree = "<group>"; };
+		136C0A2D16120EB300239E1C /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		1387B4051428AF490033C4B2 /* ql-icon-20-film.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ql-icon-20-film.png"; sourceTree = "<group>"; };
+		1387B4061428AF490033C4B2 /* ql-icon-20-other.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ql-icon-20-other.png"; sourceTree = "<group>"; };
+		1387B4071428AF490033C4B2 /* ql-icon-20-party.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ql-icon-20-party.png"; sourceTree = "<group>"; };
+		1387B4081428AF490033C4B2 /* ql-icon-20-theatre-play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ql-icon-20-theatre-play.png"; sourceTree = "<group>"; };
+		1387B4091428AF490033C4B2 /* ql-icon-20-visual-arts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ql-icon-20-visual-arts.png"; sourceTree = "<group>"; };
+		1387B40F1428B0870033C4B2 /* appicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = appicon.png; path = ../appicon.png; sourceTree = "<group>"; };
+		1387B4111428B08F0033C4B2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
+		1387B4131428B1740033C4B2 /* EventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventViewController.h; sourceTree = "<group>"; };
+		1387B4141428B1740033C4B2 /* EventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventViewController.m; sourceTree = "<group>"; };
+		1387B4151428B1740033C4B2 /* EventViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EventViewController.xib; sourceTree = "<group>"; };
+		1387B4181428B39D0033C4B2 /* px-pttrn-4x1s-cocoa-bean-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "px-pttrn-4x1s-cocoa-bean-100.png"; path = "../../../queermobile/img/px-pttrn-4x1s-cocoa-bean-100.png"; sourceTree = "<group>"; };
+		13A39F91142A57CB004ACB5A /* FilmViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilmViewController.h; sourceTree = "<group>"; };
+		13A39F92142A57CB004ACB5A /* FilmViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilmViewController.m; sourceTree = "<group>"; };
+		13A39F93142A57CB004ACB5A /* FilmViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FilmViewController.xib; sourceTree = "<group>"; };
 		13D35729142778CC00D57703 /* Queer Lisboa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Queer Lisboa.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13D3572D142778CC00D57703 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		13D3572F142778CC00D57703 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		13D35731142778CC00D57703 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		13D35735142778CC00D57703 /* Queer Lisboa-Info.plist */ = {isa = PBXFileReference; path = "Queer Lisboa-Info.plist"; sourceTree = "<group>"; };
+		13D35735142778CC00D57703 /* Queer Lisboa-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Queer Lisboa-Info.plist"; sourceTree = "<group>"; };
 		13D35737142778CC00D57703 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		13D35739142778CC00D57703 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		13D3573B142778CC00D57703 /* Queer Lisboa-Prefix.pch */ = {isa = PBXFileReference; path = "Queer Lisboa-Prefix.pch"; sourceTree = "<group>"; };
-		13D3573C142778CC00D57703 /* Queer_LisboaAppDelegate.h */ = {isa = PBXFileReference; path = Queer_LisboaAppDelegate.h; sourceTree = "<group>"; };
+		13D3573B142778CC00D57703 /* Queer Lisboa-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Queer Lisboa-Prefix.pch"; sourceTree = "<group>"; };
+		13D3573C142778CC00D57703 /* Queer_LisboaAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Queer_LisboaAppDelegate.h; sourceTree = "<group>"; };
 		13D3573D142778CC00D57703 /* Queer_LisboaAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Queer_LisboaAppDelegate.m; sourceTree = "<group>"; };
 		13D35740142778CC00D57703 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		13D35742142778CC00D57703 /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		13D35742142778CC00D57703 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		13D35743142778CC00D57703 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		13D35746142778CC00D57703 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
 		13D3574D142778CC00D57703 /* Queer LisboaTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Queer LisboaTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13D3574E142778CC00D57703 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		13D35757142778CC00D57703 /* Queer LisboaTests-Info.plist */ = {isa = PBXFileReference; path = "Queer LisboaTests-Info.plist"; sourceTree = "<group>"; };
+		13D35757142778CC00D57703 /* Queer LisboaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Queer LisboaTests-Info.plist"; sourceTree = "<group>"; };
 		13D35759142778CC00D57703 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		13D3575B142778CC00D57703 /* Queer_LisboaTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Queer_LisboaTests.h; sourceTree = "<group>"; };
 		13D3575D142778CC00D57703 /* Queer_LisboaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Queer_LisboaTests.m; sourceTree = "<group>"; };
+		13F6A7491427BABC00004061 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		13F6A74A1427BABC00004061 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		13FFF07D16131F67007A9D55 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Portrait~ipad.png"; path = "../Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		13FFF07F16131F7B007A9D55 /* apple-touch-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "apple-touch-icon.png"; path = "../apple-touch-icon.png"; sourceTree = "<group>"; };
+		13FFF081161340E7007A9D55 /* FilmViewControllerWithoutTrailer.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FilmViewControllerWithoutTrailer.xib; sourceTree = "<group>"; };
+		13FFF08416134537007A9D55 /* synopsis.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = synopsis.html; sourceTree = "<group>"; };
+		13FFF087161348B8007A9D55 /* video.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = video.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +141,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		134E74B516110ECA004BBE93 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				134E74B616110ECA004BBE93 /* MainWindow-iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		1387B3F81428A4CB0033C4B2 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				13681B2D142B70D100F8B0E8 /* AsyncImageView.h */,
+				13681B2E142B70D100F8B0E8 /* AsyncImageView.m */,
+				136C0A2D16120EB300239E1C /* GTMDefines.h */,
+				136C0A2516120DCA00239E1C /* GTMNSString+HTML.h */,
+				136C0A2616120DCA00239E1C /* GTMNSString+HTML.m */,
+				13F6A7491427BABC00004061 /* JSONKit.h */,
+				13F6A74A1427BABC00004061 /* JSONKit.m */,
+				1305FA4C142800FD00E97A08 /* helpers.h */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		1387B3FA1428A4E20033C4B2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				13FFF07F16131F7B007A9D55 /* apple-touch-icon.png */,
+				13FFF07D16131F67007A9D55 /* Default-Portrait~ipad.png */,
+				1387B4111428B08F0033C4B2 /* Default.png */,
+				1387B40F1428B0870033C4B2 /* appicon.png */,
+				1387B4181428B39D0033C4B2 /* px-pttrn-4x1s-cocoa-bean-100.png */,
+				1387B4051428AF490033C4B2 /* ql-icon-20-film.png */,
+				1387B4061428AF490033C4B2 /* ql-icon-20-other.png */,
+				1387B4071428AF490033C4B2 /* ql-icon-20-party.png */,
+				1387B4081428AF490033C4B2 /* ql-icon-20-theatre-play.png */,
+				1387B4091428AF490033C4B2 /* ql-icon-20-visual-arts.png */,
+				13FFF08416134537007A9D55 /* synopsis.html */,
+				13FFF087161348B8007A9D55 /* video.html */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		13D3571E142778CC00D57703 = {
 			isa = PBXGroup;
 			children = (
@@ -116,13 +216,26 @@
 		13D35733142778CC00D57703 /* Queer Lisboa */ = {
 			isa = PBXGroup;
 			children = (
+				1387B3FA1428A4E20033C4B2 /* Resources */,
+				134E74B516110ECA004BBE93 /* iPad */,
+				1387B3F81428A4CB0033C4B2 /* Helpers */,
+				13D35734142778CC00D57703 /* Supporting Files */,
 				13D3573C142778CC00D57703 /* Queer_LisboaAppDelegate.h */,
 				13D3573D142778CC00D57703 /* Queer_LisboaAppDelegate.m */,
 				13D3573F142778CC00D57703 /* MainWindow.xib */,
 				13D35742142778CC00D57703 /* RootViewController.h */,
 				13D35743142778CC00D57703 /* RootViewController.m */,
 				13D35745142778CC00D57703 /* RootViewController.xib */,
-				13D35734142778CC00D57703 /* Supporting Files */,
+				1387B4131428B1740033C4B2 /* EventViewController.h */,
+				1387B4141428B1740033C4B2 /* EventViewController.m */,
+				1387B4151428B1740033C4B2 /* EventViewController.xib */,
+				1305FA4E142801A900E97A08 /* EventsListViewController.h */,
+				1305FA4F142801A900E97A08 /* EventsListViewController.m */,
+				1305FA50142801A900E97A08 /* EventsListViewController.xib */,
+				13A39F91142A57CB004ACB5A /* FilmViewController.h */,
+				13A39F92142A57CB004ACB5A /* FilmViewController.m */,
+				13A39F93142A57CB004ACB5A /* FilmViewController.xib */,
+				13FFF081161340E7007A9D55 /* FilmViewControllerWithoutTrailer.xib */,
 			);
 			path = "Queer Lisboa";
 			sourceTree = "<group>";
@@ -227,6 +340,23 @@
 				13D35738142778CC00D57703 /* InfoPlist.strings in Resources */,
 				13D35741142778CC00D57703 /* MainWindow.xib in Resources */,
 				13D35747142778CC00D57703 /* RootViewController.xib in Resources */,
+				1305FA52142801A900E97A08 /* EventsListViewController.xib in Resources */,
+				1387B40A1428AF490033C4B2 /* ql-icon-20-film.png in Resources */,
+				1387B40B1428AF490033C4B2 /* ql-icon-20-other.png in Resources */,
+				1387B40C1428AF490033C4B2 /* ql-icon-20-party.png in Resources */,
+				1387B40D1428AF490033C4B2 /* ql-icon-20-theatre-play.png in Resources */,
+				1387B40E1428AF490033C4B2 /* ql-icon-20-visual-arts.png in Resources */,
+				1387B4101428B0870033C4B2 /* appicon.png in Resources */,
+				1387B4121428B08F0033C4B2 /* Default.png in Resources */,
+				1387B4171428B1740033C4B2 /* EventViewController.xib in Resources */,
+				1387B4191428B39D0033C4B2 /* px-pttrn-4x1s-cocoa-bean-100.png in Resources */,
+				13A39F95142A57CB004ACB5A /* FilmViewController.xib in Resources */,
+				134E74B816110ECA004BBE93 /* MainWindow-iPad.xib in Resources */,
+				13FFF07E16131F67007A9D55 /* Default-Portrait~ipad.png in Resources */,
+				13FFF08016131F7B007A9D55 /* apple-touch-icon.png in Resources */,
+				13FFF082161340E7007A9D55 /* FilmViewControllerWithoutTrailer.xib in Resources */,
+				13FFF08516134537007A9D55 /* synopsis.html in Resources */,
+				13FFF088161348B8007A9D55 /* video.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +366,9 @@
 			files = (
 				13D3575A142778CC00D57703 /* InfoPlist.strings in Resources */,
 				13D3575C142778CC00D57703 /* Queer_LisboaTests.h in Resources */,
+				13FFF083161340E7007A9D55 /* FilmViewControllerWithoutTrailer.xib in Resources */,
+				13FFF08616134537007A9D55 /* synopsis.html in Resources */,
+				13FFF089161348B8007A9D55 /* video.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +398,12 @@
 				13D3573A142778CC00D57703 /* main.m in Sources */,
 				13D3573E142778CC00D57703 /* Queer_LisboaAppDelegate.m in Sources */,
 				13D35744142778CC00D57703 /* RootViewController.m in Sources */,
+				13F6A74B1427BABC00004061 /* JSONKit.m in Sources */,
+				1305FA51142801A900E97A08 /* EventsListViewController.m in Sources */,
+				1387B4161428B1740033C4B2 /* EventViewController.m in Sources */,
+				13A39F94142A57CB004ACB5A /* FilmViewController.m in Sources */,
+				13681B2F142B70D100F8B0E8 /* AsyncImageView.m in Sources */,
+				136C0A2716120DCA00239E1C /* GTMNSString+HTML.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +412,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13D3575E142778CC00D57703 /* Queer_LisboaTests.m in Sources */,
+				136C0A2816120DCA00239E1C /* GTMNSString+HTML.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +427,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		134E74B616110ECA004BBE93 /* MainWindow-iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				134E74B716110ECA004BBE93 /* en */,
+			);
+			name = "MainWindow-iPad.xib";
+			sourceTree = "<group>";
+		};
 		13D35736142778CC00D57703 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -370,8 +518,11 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Queer Lisboa/Queer Lisboa-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "Queer Lisboa/Queer Lisboa-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -381,8 +532,11 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Queer Lisboa/Queer Lisboa-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "Queer Lisboa/Queer Lisboa-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -397,6 +551,7 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Queer Lisboa/Queer Lisboa-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "Queer LisboaTests/Queer LisboaTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
@@ -414,6 +569,7 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Queer Lisboa/Queer Lisboa-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "Queer LisboaTests/Queer LisboaTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
@@ -440,6 +596,7 @@
 				13D35763142778CC00D57703 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		13D35764142778CC00D57703 /* Build configuration list for PBXNativeTarget "Queer LisboaTests" */ = {
 			isa = XCConfigurationList;
@@ -448,6 +605,7 @@
 				13D35766142778CC00D57703 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
