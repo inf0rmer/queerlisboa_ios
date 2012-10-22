@@ -29,7 +29,6 @@
 		1387B4121428B08F0033C4B2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1387B4111428B08F0033C4B2 /* Default.png */; };
 		1387B4161428B1740033C4B2 /* EventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1387B4141428B1740033C4B2 /* EventViewController.m */; };
 		1387B4171428B1740033C4B2 /* EventViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1387B4151428B1740033C4B2 /* EventViewController.xib */; };
-		1387B4191428B39D0033C4B2 /* px-pttrn-4x1s-cocoa-bean-100.png in Resources */ = {isa = PBXBuildFile; fileRef = 1387B4181428B39D0033C4B2 /* px-pttrn-4x1s-cocoa-bean-100.png */; };
 		13A39F94142A57CB004ACB5A /* FilmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A39F92142A57CB004ACB5A /* FilmViewController.m */; };
 		13A39F95142A57CB004ACB5A /* FilmViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13A39F93142A57CB004ACB5A /* FilmViewController.xib */; };
 		13D3572E142778CC00D57703 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13D3572D142778CC00D57703 /* UIKit.framework */; };
@@ -48,6 +47,7 @@
 		13D3575A142778CC00D57703 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 13D35758142778CC00D57703 /* InfoPlist.strings */; };
 		13D3575C142778CC00D57703 /* Queer_LisboaTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 13D3575B142778CC00D57703 /* Queer_LisboaTests.h */; };
 		13D3575E142778CC00D57703 /* Queer_LisboaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D3575D142778CC00D57703 /* Queer_LisboaTests.m */; };
+		13D9AF5A1635951F006EECE4 /* px-pttrn-4x1s-cocoa-bean-100.png in Resources */ = {isa = PBXBuildFile; fileRef = 13D9AF591635951F006EECE4 /* px-pttrn-4x1s-cocoa-bean-100.png */; };
 		13F6A74B1427BABC00004061 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F6A74A1427BABC00004061 /* JSONKit.m */; };
 		13FFF07E16131F67007A9D55 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 13FFF07D16131F67007A9D55 /* Default-Portrait~ipad.png */; };
 		13FFF08016131F7B007A9D55 /* apple-touch-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 13FFF07F16131F7B007A9D55 /* apple-touch-icon.png */; };
@@ -97,7 +97,6 @@
 		1387B4131428B1740033C4B2 /* EventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventViewController.h; sourceTree = "<group>"; };
 		1387B4141428B1740033C4B2 /* EventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventViewController.m; sourceTree = "<group>"; };
 		1387B4151428B1740033C4B2 /* EventViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EventViewController.xib; sourceTree = "<group>"; };
-		1387B4181428B39D0033C4B2 /* px-pttrn-4x1s-cocoa-bean-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "px-pttrn-4x1s-cocoa-bean-100.png"; path = "../../../queermobile/img/px-pttrn-4x1s-cocoa-bean-100.png"; sourceTree = "<group>"; };
 		13A39F91142A57CB004ACB5A /* FilmViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilmViewController.h; sourceTree = "<group>"; };
 		13A39F92142A57CB004ACB5A /* FilmViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilmViewController.m; sourceTree = "<group>"; };
 		13A39F93142A57CB004ACB5A /* FilmViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FilmViewController.xib; sourceTree = "<group>"; };
@@ -121,6 +120,7 @@
 		13D35759142778CC00D57703 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		13D3575B142778CC00D57703 /* Queer_LisboaTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Queer_LisboaTests.h; sourceTree = "<group>"; };
 		13D3575D142778CC00D57703 /* Queer_LisboaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Queer_LisboaTests.m; sourceTree = "<group>"; };
+		13D9AF591635951F006EECE4 /* px-pttrn-4x1s-cocoa-bean-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "px-pttrn-4x1s-cocoa-bean-100.png"; sourceTree = "<group>"; };
 		13F6A7491427BABC00004061 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
 		13F6A74A1427BABC00004061 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
 		13FFF07D16131F67007A9D55 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Portrait~ipad.png"; path = "../Default-Portrait~ipad.png"; sourceTree = "<group>"; };
@@ -181,6 +181,7 @@
 		1387B3FA1428A4E20033C4B2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				13D9AF591635951F006EECE4 /* px-pttrn-4x1s-cocoa-bean-100.png */,
 				130961001615AE2200423BDA /* ql-icon-20-workshop-white.png */,
 				130960FE1615ADE500423BDA /* ql-icon-20-workshop.png */,
 				130960F41615A0AB00423BDA /* ql-icon-20-theatre-play-white.png */,
@@ -192,7 +193,6 @@
 				13FFF07D16131F67007A9D55 /* Default-Portrait~ipad.png */,
 				1387B4111428B08F0033C4B2 /* Default.png */,
 				1387B40F1428B0870033C4B2 /* appicon.png */,
-				1387B4181428B39D0033C4B2 /* px-pttrn-4x1s-cocoa-bean-100.png */,
 				1387B4051428AF490033C4B2 /* ql-icon-20-film.png */,
 				1387B4061428AF490033C4B2 /* ql-icon-20-other.png */,
 				1387B4071428AF490033C4B2 /* ql-icon-20-party.png */,
@@ -370,7 +370,6 @@
 				1387B4101428B0870033C4B2 /* appicon.png in Resources */,
 				1387B4121428B08F0033C4B2 /* Default.png in Resources */,
 				1387B4171428B1740033C4B2 /* EventViewController.xib in Resources */,
-				1387B4191428B39D0033C4B2 /* px-pttrn-4x1s-cocoa-bean-100.png in Resources */,
 				13A39F95142A57CB004ACB5A /* FilmViewController.xib in Resources */,
 				134E74B816110ECA004BBE93 /* MainWindow-iPad.xib in Resources */,
 				13FFF07E16131F67007A9D55 /* Default-Portrait~ipad.png in Resources */,
@@ -385,6 +384,7 @@
 				130960FD1615A0AB00423BDA /* ql-icon-20-party-white.png in Resources */,
 				130960FF1615ADE500423BDA /* ql-icon-20-workshop.png in Resources */,
 				130961011615AE2200423BDA /* ql-icon-20-workshop-white.png in Resources */,
+				13D9AF5A1635951F006EECE4 /* px-pttrn-4x1s-cocoa-bean-100.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
