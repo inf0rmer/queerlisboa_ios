@@ -49,6 +49,7 @@
 		13D3575E142778CC00D57703 /* Queer_LisboaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D3575D142778CC00D57703 /* Queer_LisboaTests.m */; };
 		13D9AF5A1635951F006EECE4 /* px-pttrn-4x1s-cocoa-bean-100.png in Resources */ = {isa = PBXBuildFile; fileRef = 13D9AF591635951F006EECE4 /* px-pttrn-4x1s-cocoa-bean-100.png */; };
 		13F6A74B1427BABC00004061 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F6A74A1427BABC00004061 /* JSONKit.m */; };
+		13FE346F163D97CB00E5A64F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 13FE346E163D97CB00E5A64F /* Default-568h@2x.png */; };
 		13FFF07E16131F67007A9D55 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 13FFF07D16131F67007A9D55 /* Default-Portrait~ipad.png */; };
 		13FFF08016131F7B007A9D55 /* apple-touch-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 13FFF07F16131F7B007A9D55 /* apple-touch-icon.png */; };
 		13FFF082161340E7007A9D55 /* FilmViewControllerWithoutTrailer.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13FFF081161340E7007A9D55 /* FilmViewControllerWithoutTrailer.xib */; };
@@ -123,6 +124,7 @@
 		13D9AF591635951F006EECE4 /* px-pttrn-4x1s-cocoa-bean-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "px-pttrn-4x1s-cocoa-bean-100.png"; sourceTree = "<group>"; };
 		13F6A7491427BABC00004061 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
 		13F6A74A1427BABC00004061 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		13FE346E163D97CB00E5A64F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		13FFF07D16131F67007A9D55 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Portrait~ipad.png"; path = "../Default-Portrait~ipad.png"; sourceTree = "<group>"; };
 		13FFF07F16131F7B007A9D55 /* apple-touch-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "apple-touch-icon.png"; path = "../apple-touch-icon.png"; sourceTree = "<group>"; };
 		13FFF081161340E7007A9D55 /* FilmViewControllerWithoutTrailer.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FilmViewControllerWithoutTrailer.xib; sourceTree = "<group>"; };
@@ -207,6 +209,7 @@
 		13D3571E142778CC00D57703 = {
 			isa = PBXGroup;
 			children = (
+				13FE346E163D97CB00E5A64F /* Default-568h@2x.png */,
 				13D35733142778CC00D57703 /* Queer Lisboa */,
 				13D35755142778CC00D57703 /* Queer LisboaTests */,
 				13D3572C142778CC00D57703 /* Frameworks */,
@@ -385,6 +388,7 @@
 				130960FF1615ADE500423BDA /* ql-icon-20-workshop.png in Resources */,
 				130961011615AE2200423BDA /* ql-icon-20-workshop-white.png in Resources */,
 				13D9AF5A1635951F006EECE4 /* px-pttrn-4x1s-cocoa-bean-100.png in Resources */,
+				13FE346F163D97CB00E5A64F /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
